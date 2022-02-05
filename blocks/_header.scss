@@ -1,0 +1,43 @@
+.head{
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.head__list{
+  display: flex;
+  
+  
+  
+}
+
+.haed__item{
+  list-style-type: none;
+  margin-left: 33px;
+}
+.head__logo{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+  text-decoration: none;
+}
+
+.head__logo:hover{
+  color: #333D4B;
+}
+
+@media only screen and (max-width:375px){
+  .head__list{
+    width: 320px;
+    display: none;
+  }
+}

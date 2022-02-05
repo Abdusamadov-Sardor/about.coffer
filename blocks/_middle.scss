@@ -1,0 +1,57 @@
+
+    .main__section{
+      width: 100%;
+        max-width: 445px;
+        }
+        .main{
+          width: 100%;
+          max-width: 1280px;
+          height: 450px;
+         background-image: url("../images/img-1.png");
+         background-repeat: no-repeat;
+         background-size:cover ;
+         background-position:right;
+         padding: 137px 85px 137px 85px;
+         border-radius: 10px;
+          margin-bottom: 168px;
+         
+        }
+        .main__title{
+            font-family: Fraunces ;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FEFCF7;
+            margin-bottom: 32px;
+        }
+        
+        .main__text{
+        
+          font-family: Barlow;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+          mix-blend-mode: normal;
+          opacity: 0.8;
+          color: #FEFCF7;
+          margin: 0;
+          margin-bottom: 56px;
+        
+        }
+
+        @media only screen and(max-width:375px) {
+          .main{
+            width: 320px;
+            
+          }
+
+          .main__section{
+            display: flex;
+            flex-direction: column;
+          
+          }
+
+
+        }
